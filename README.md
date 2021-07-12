@@ -18,10 +18,11 @@ Additionally, these scripts will preserve parameters described [here](https://do
 
 1. Download the zip file on your computer. [20.10 DOWNLOAD](http://download.uipath.com/versions/20.10.9/UiPathOrchestrator.zip)
 2. Create a directory and unarchive the zip file into the directory 
-3. Complete all the prerequisites specified earlier 
-4. Backup necessary components including database(s) and configuration files for the Orchestrator. For more details, please refer to [this documentation](https://docs.uipath.com/installation-and-upgrade/v2020.10/docs/backup-and-restore)
-5. Open PowerShell window and navigate to the directory created earlier
-6. Initiate an update process for the Orchestrator:
+3. Grab the [AZModules Zip](https://github.com/UiPath/Infrastructure/raw/main/Azure/Orchestrator/Other/AzModules.zip) and copy into directory in step 2.
+4. Complete all the prerequisites specified earlier 
+5. Backup necessary components including database(s) and configuration files for the Orchestrator. For more details, please refer to [this documentation](https://docs.uipath.com/installation-and-upgrade/v2020.10/docs/backup-and-restore)
+6. Open PowerShell window and navigate to the directory created earlier
+7. Initiate an update process for the Orchestrator:
    - Method 1 - Using your Azure account
 ```
     .\Update-UiPathOrchestratorPaaS.ps1 `
